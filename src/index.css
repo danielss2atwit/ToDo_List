@@ -1,0 +1,73 @@
+body{
+  background-color:beige;
+}
+.todo-list{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center;
+  margin-top: 100px;
+}
+h1{
+  font-size:4rem;
+}
+button{
+  font-size: 1.7rem;
+  font-weight:bold;
+  padding: 10px 20px;
+  color:white;
+  border: none;
+  border-radius:5px;
+  cursor:pointer;
+  transition:background-color 0.5 ease;
+}
+
+.addButton{
+  background-color:rgb(117, 225, 117,0.5);
+}
+.addButton:hover{
+  background-color:rgb(88, 162, 88);
+}
+.deleteButton{
+  background-color:rgba(224, 224, 94, 0.5);
+}
+.deleteButton:hover{
+  background-color:rgb(255, 241, 135);
+}
+.moveButton{
+  background-color:pink;
+  
+}
+.moveButton:hover{
+  background-color:rgb(205, 127, 140);
+}
+input[type="text"]{
+  font-size:1.6rem;
+  padding:10px;
+  border:2px solid gainsboro;
+  border-radius:5px;
+  color:gray;
+}
+ol{
+  padding:0;
+
+}
+li{
+  font-size:2rem;
+  font-weight:bold;
+  padding:15px;
+  background-color:rgb(228, 228, 255);
+  margin-bottom:10px;
+  border: 3px solid rgba(210, 180, 140, 0.666);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+
+}
+.text{
+  flex:1;
+}
+.deleteButton,.moveButton{
+  padding:8px 12px;
+  font-size:1.4rem;
+  margin-left:10px;
+
+}
