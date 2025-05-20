@@ -6,7 +6,7 @@ A simple To-Do List web app where users can add/delete tasks and change whether 
 🔗 [Click here to try the app](https://danielss2atwit.github.io/ToDo_List/)
 
 ## Preview 📷
-![screenshot](screenshots/todolistapp.png) 
+<img src="https://github.com/user-attachments/assets/9a7b7e8f-68e1-4018-8338-a63035bf62d3" alt="Screenshot of ToDo App" width="500"/>
 
 ## Features 💡
 - Add Tasks
